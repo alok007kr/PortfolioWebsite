@@ -1,0 +1,32 @@
+*{
+box-sizing:border-box;
+margin:0px;
+padding:0px;
+}
+body{
+<!-- background image -->
+background-size:cover;
+background_position:center center;
+height:100vh;
+font-family:poppins;
+}
+a{
+text-decoration:none;
+}
+header{
+display:flex;
+justify-content: space-between;
+align-items:center;
+padding:30px 70px;
+}
+.logo{
+cursor:pointer;
+}
+.nav-area{
+list-style:none;
+}
+.nav-area li{
+display:inline-block;
+padding:0px 15px;
+text-transformation:uppercase;
+}
